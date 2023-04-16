@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav.container{
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav-brand{
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+button{
+    &.add-button{
+        padding: 12px 30px;
+        font-size: 22px;
+        margin-bottom: 35px;
+    }
+    &.edit-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px; 
+        margin-right: 15px;
+    }
+    &.delete-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    &.modal-add-button,
+    &.modal-edit-button{
+        padding: 10px 20px;
+        margin-right: 15px;
+        font-size: 18px;
+    }
+    &.modal-cancel-button{
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+}
+td,th{
+    font-size: 20px;
+    line-height: 35px;
+}
+// button.edit-button{
+//     color: #fff;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     padding: 10px;
+//     margin-right: 10px;
+// }
+// button.delete-button{
+//     color: #fff;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     padding: 10px;
+// }
